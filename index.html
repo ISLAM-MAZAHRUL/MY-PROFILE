@@ -39,6 +39,14 @@
           <div class="icon">🏸</div>
           <span>Sports & Hobbies</span>
         </div>
+        <div class="nav-card" onclick="show('photo')">
+          <div class="icon">📸</div>
+         <span>My Photo</span>
+        </div>
+        <div class="nav-card" onclick="show('family')">
+        <div class="icon">👨‍👩‍👦</div>
+        <span>My Family</span>
+        </div>
       </div>
     </div>
   </div>
@@ -270,7 +278,154 @@
       </div>
     </div>
   </div>
+  <!-- ===== MY PHOTO ===== -->
+<div id="photo" class="page">
+  <div class="inner">
+    <div class="back-btn" onclick="show('home')">← Back</div>
 
+    <h2 class="page-title"><span class="dot"></span> My Photo</h2>
+
+    <div class="card">
+      <div class="card-title">Gallery</div>
+
+      <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:10px;">
+
+       <img src="image/m1.jpg" style="width:100%;height:250px;object-fit:cover;object-position:top;border-radius:10px;">
+       <img src="image/m2.jpg" style="width:100%;height:250px;object-fit:cover;border-radius:10px;">
+       <img src="image/m3.jpg" style="width:100%;height:280px;object-fit:cover;border-radius:10px;">
+       <img src="image/m4.jpg" style="width:100%;height:270px;object-fit:cover;object-position:left;border-radius:10px;">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== MY FAMILY ===== -->
+<div id="family" class="page">
+  <div class="inner">
+    <div class="back-btn" onclick="show('home')">← Back</div>
+
+    <h2 class="page-title"><span class="dot"></span> My Family</h2>
+
+    <div class="card stagger-1">
+      <div class="card-title">Father</div>
+
+      <div class="info-row">
+        <span class="info-label">Name</span>
+        <span class="info-val">Late Md. Deen Islam</span>
+      </div>
+
+      <div class="info-row">
+        <span class="info-label">Occupation</span>
+        <span class="info-val">Businessman</span>
+      </div>
+
+      <div class="info-row">
+        <span class="info-label">Business</span>
+        <span class="info-val">Maya Saw Mill, Angaura, Gouripur</span>
+      </div>
+
+      <div class="info-row">
+        <span class="info-label">Address</span>
+        <span class="info-val">Jinglatoli, Gram Raypur, Daudkandi, Cumilla</span>
+      </div>
+    </div>
+
+    <div class="card stagger-2">
+      <div class="card-title">Mother</div>
+
+      <div class="info-row">
+        <span class="info-label">Name</span>
+        <span class="info-val">Maya Begum</span>
+      </div>
+
+      <div class="info-row">
+        <span class="info-label">Occupation</span>
+        <span class="info-val">Home Maker</span>
+      </div>
+
+      <div class="info-row">
+        <span class="info-label">Address</span>
+        <span class="info-val">Jinglatoli, Gram Raypur, Daudkandi, Cumilla</span>
+      </div>
+    </div>
+
+    <div class="card stagger-3">
+      <div class="card-title">Elder Brother</div>
+
+      <div class="info-row">
+        <span class="info-label">Name</span>
+        <span class="info-val">Mohammad Roman</span>
+      </div>
+
+      <div class="info-row">
+        <span class="info-label">Date of Birth</span>
+        <span class="info-val">May 21, 1988</span>
+      </div>
+
+      <div class="info-row">
+        <span class="info-label">Profession</span>
+        <span class="info-val">Principal</span>
+      </div>
+
+      <div class="info-row">
+        <span class="info-label">Workplace</span>
+        <span class="info-val">Begum Rokeya Girls School and College</span>
+      </div>
+
+      <div class="info-row">
+        <span class="info-label">Working Since</span>
+        <span class="info-val">February 27, 2022</span>
+      </div>
+
+      <div class="info-row">
+        <span class="info-label">Marital Status</span>
+        <span class="info-val">Married</span>
+      </div>
+
+
+      <div class="info-row">
+        <span class="info-label">Address</span>
+        <span class="info-val">Jinglatoli, Gram Raypur, Daudkandi, Cumilla</span>
+      </div>
+    </div>
+
+    <div class="card stagger-4">
+      <div class="card-title">Second Brother</div>
+
+      <div class="info-row">
+        <span class="info-label">Name</span>
+        <span class="info-val">Md Amirul Islam</span>
+      </div>
+
+      <div class="info-row">
+        <span class="info-label">Date of Birth</span>
+        <span class="info-val">September 02, 1991</span>
+      </div>
+
+      <div class="info-row">
+        <span class="info-label">Profession</span>
+        <span class="info-val">Sr. Medical Promotion Officer</span>
+      </div>
+
+      <div class="info-row">
+        <span class="info-label">Company</span>
+        <span class="info-val">Ziska Pharmaceuticals Limited</span>
+      </div>
+
+      <div class="info-row">
+        <span class="info-label">Marital Status</span>
+        <span class="info-val">Married</span>
+      </div>
+
+      <div class="info-row">
+        <span class="info-label">Address</span>
+        <span class="info-val">Jinglatoli, Gram Raypur, Daudkandi, Cumilla</span>
+      </div>
+    </div>
+
+  </div>
+</div>
   <script src="my.js"></script>
 </body>
 </html>
